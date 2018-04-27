@@ -1,6 +1,6 @@
 
 """using Math function for absolute value
-calculation using fabs float abs value"""
+calculation using fabs float abs value. """
 
 from math import fabs
 x = -5
