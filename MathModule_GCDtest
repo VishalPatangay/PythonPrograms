@@ -1,0 +1,7 @@
+from math import gcd
+"""to calculate the gcd of 16 and 28"""
+x = 16
+y = 28
+gcdval = gcd(x,y)
+print(gcdval)
+
