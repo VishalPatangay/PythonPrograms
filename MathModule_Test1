@@ -1,0 +1,11 @@
+
+"""using Math function for absolute value
+calculation using fabs float abs value"""
+
+from math import fabs
+x = -5
+print(fabs(x))
+
+"""integer abs value"""
+
+print(abs(x))
