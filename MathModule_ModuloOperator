@@ -1,0 +1,19 @@
+"""let's using the square root function and exp function to calculate
+hypotenues h = sqrt(a2+b2)"""
+import math
+from math import sqrt,modf
+a=eval(input("Enter the length of first side of triangle:"))
+b = eval(input("Enter the length of second side of triangle:"))
+h = sqrt(a**2+b**2)
+print("the hypotenues is:", h)
+
+"""To verify if the number entered by user is even or odd
+let's use modulo operator here to check the remainder after division 
+if the remainder is non 0 then the number is odd else it's even"""
+e = eval(input("Please enter the number to check even or odd:"))
+if modf(e) == 0:
+    print("the number provided is even")
+else:
+    print("the number provided is odd")
+
+
