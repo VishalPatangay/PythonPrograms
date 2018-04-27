@@ -1,0 +1,7 @@
+from math import gcd
+"""to calculate the gcd of 16 and 28"""
+x = eval(input("Please enter the first number:"))
+y = eval(input("Please enter the second number:"))
+gcdval = gcd(x,y)
+print(gcdval)
+
