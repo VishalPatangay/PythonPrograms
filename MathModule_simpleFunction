@@ -1,0 +1,43 @@
+"""To test the simple function call"""
+from math import sqrt
+
+def is_even(n):
+
+    if n%2==0:
+        return 0
+    else:
+        return 1
+
+
+
+""""PART 2 - to check the below
+# [ ] Use the function is_even to print the square root of all the even numbers in the following list
+
+l = [25, 34, 193, 2, 81, 26, 44]
+
+def is_even(n):
+    return (n % 2) == 0"""
+
+l = [25, 34, 193, 2, 81, 26, 44]
+
+print(l)
+print("lenth of list is:", len(l))
+leng = len(l)
+
+for i in range(0,len(l)):
+
+    if is_even(l[i])==0:
+        print("the even number in the list is",l[i])
+        print("Squareroot of the number in the list is", sqrt(l[i]))
+    else:
+        continue
+
+
+
+
+"""for i in l[0:2]:
+    print("inside for l[i] is", l[0])
+    if is_even(l[i]) == 0:
+        print("the square root of the evn number from the list is", sqrt(l[i]))"""
+
+
