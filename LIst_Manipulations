@@ -1,0 +1,16 @@
+"""This program demonstrates the use of multiple line printing using print method and manipulating lists using append."""
+
+print("hello world\n what\'s in today?")
+
+guests = ['Christopher','test','test2']
+
+"""To Add a member at the end of the list"""
+guests.append('Steve')
+"""After appending"""
+print("After appending the guest list is ")
+print(guests[:])
+
+"""To remove a memner from the list"""
+guests.remove(guests[0])
+print("After removing first element, the guest list is")
+print(guests[:])
